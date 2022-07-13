@@ -1,1 +1,6 @@
 opencv-python-headless
+Keras
+tensorboard
+tensorboard-plugin-wit
+tensorflow
+tensorflow-estimator
