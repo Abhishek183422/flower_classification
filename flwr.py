@@ -14,7 +14,7 @@ st.write("""
             # FLOWER CLASSIFICATION
          """)
 #getting the local file path and the url
-model=keras.models.load_model('https://github.com/Abhishek183422/flower_classification/blob/main/Flower_prediction_new.h5')
+model=keras.models.load_model('Flower_prediction_new.h5')
 pic_upload=st.file_uploader('Upload only flower Image',type=['jpg','png'])
 
 #resizing the image
